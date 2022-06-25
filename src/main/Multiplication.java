@@ -1,6 +1,6 @@
 package main;
 
-public class Multiplicator {
+public class Multiplication {
     public Matrix multiply(Matrix matrix1, Matrix matrix2) {
         int vertical = matrix1.getVerticalSize();
         int horizontal = matrix2.getHorizontalSize();
@@ -20,4 +20,5 @@ public class Multiplicator {
 
         return result;
     }
+
 }
